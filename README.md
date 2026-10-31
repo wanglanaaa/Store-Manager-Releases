@@ -4,9 +4,9 @@ Windows 单机进销存工具，使用 SQLite 本地账套。本仓库只发布�
 
 [下载最新版本](https://github.com/wanglanaaa/Store-Manager-Releases/releases/latest)
 
-## v2.2.0
+## v2.2.1
 
-[下载 Windows x64 程序包](https://github.com/wanglanaaa/Store-Manager-Releases/releases/download/v2.2.0/StoreManager-v2.2.0-win-x64.zip) · [SHA-256 校验文件](https://github.com/wanglanaaa/Store-Manager-Releases/releases/download/v2.2.0/StoreManager-v2.2.0-win-x64.zip.sha256) · [完整更新说明](https://github.com/wanglanaaa/Store-Manager-Releases/releases/tag/v2.2.0)
+[下载 Windows x64 程序包](https://github.com/wanglanaaa/Store-Manager-Releases/releases/download/v2.2.1/StoreManager-v2.2.1-win-x64.zip) · [SHA-256 校验文件](https://github.com/wanglanaaa/Store-Manager-Releases/releases/download/v2.2.1/StoreManager-v2.2.1-win-x64.zip.sha256) · [完整更新说明](https://github.com/wanglanaaa/Store-Manager-Releases/releases/tag/v2.2.1)
 
 完整解压后运行 `StoreManager.WinForms.exe`，无需安装 Python 或 .NET。请勿只复制 exe；包内提供中文使用说明和文件校验清单。
 
@@ -22,3 +22,5 @@ Release 自动生成的 Source code 压缩包只包含本发布仓库的说明�
 草稿独立保存在账套旁的 `.sale-drafts.sqlite3` 文件，账套单文件备份不包含草稿。需要保留或移动时，关闭程序后将账套与对应草稿文件一起保留，不混用其他账套或不同备份时点的草稿。
 
 程序包不含账套或经营数据；现场扫码枪、打印机及不同 DPI 的效果请结合实际设备核对。主窗口“检查更新”只查询版本、显示说明并打开下载页，不自动安装。
+
+本次修复无条码退货二次确认、历史入库后分配条码的退货，并按剩余库存限制采购可退数量；增加同一 Windows 登录会话内的单实例保护。
